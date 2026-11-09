@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign Up</title>
+</head>
+<body style="background-color:#1f1f1f; color:white; text-align:center;">
+
+    <main>
+
+        <section class="form-container">
+
+            <form action="signup2.html" method="post">
+
+                <fieldset style="border:1px solid white; text-align:center;">
+
+                <legend>Sign Up - General Information</legend>
+
+                <input type="text" name="name" placeholder="Name" required>
+                <br><br>
+
+                <input type="email" name="email" placeholder="Email" required>
+                <br><br>
+
+                <input type="password" name="password" placeholder="Password"  required>
+                <br><br>
+
+                <input type="date" name="dob" required>
+                <br><br>
+
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <br><br>
+
+                <label for="profile">Profile:</label>
+                <input type="file" name="profile" accept="image/*">
+                <br><br>
+                
+                <button type="submit">Next</button>
+                <p>Already have an account? <a href="index.html" style="color:red;">Login</a></p>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+  color: #444444;
+  margin: 0;
+  padding: 20px;
+}
+
+.container{
+    margin: 0px 500px 0px 500px;
+}
+
+h1 {
+  margin-top: 10px;
+}
+.container h1 button{
+    height: 50px;
+    width: 90px;
+    border: 8px solid grey;
+    color: white;
+    background-color: rgb(9, 160, 9);
+}
+
+.nav {
+  background-color: #8fb98b;
+  text-align: center;
+  padding: 4px ;
+  margin: 0px 0px 20px 0px;
+  width: 550px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 80px;
+}
+
+img {
+  border-radius: 4px;
+}
+
+iframe {
+  border: 0;
+}

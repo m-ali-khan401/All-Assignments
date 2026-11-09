@@ -1,0 +1,52 @@
+.box{
+    display: inline-block;
+    vertical-align: top;
+    border: 3px solid blue;
+    height: 400px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.box h3{
+    font-size: 16px;
+}
+
+/* 1. Descendant Combinator: .descombinator ke andar har p (chahe kitna bhi andar ho) */
+.descombinator p{
+    border: 5px dotted red;
+    font-size: 22px;
+    background-color: aqua;
+    color: red;
+    padding: 10px;
+    background-clip: content-box;
+}
+
+/* 2. Child Combinator: sirf direct child p */
+.childcombinator > p{
+    border: 5px dotted green;
+    font-size: 22px;
+    background-color: yellow;
+    color: green;
+    padding: 10px;
+    background-clip: content-box;
+}
+
+/* 3. Adjacent Sibling Combinator: h2 ke bilkul baad wala pehla p */
+h2 + p{
+    border: 5px dotted purple;
+    font-size: 22px;
+    background-color: pink;
+    color: purple;
+    padding: 10px;
+    background-clip: content-box;
+}
+
+/* 4. General Sibling Combinator: h2 ke baad wale sab p */
+.generalcombinator h2 ~ p{
+    border: 5px dotted orange;
+    font-size: 22px;
+    background-color: lightgreen;
+    color: darkred;
+    padding: 10px;
+    background-clip: content-box;
+}

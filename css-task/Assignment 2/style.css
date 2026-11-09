@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #121212;
+}
+
+a { color: #121212; text-decoration: none; }
+h1, h2, h3, h4, h5, p { margin: 0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  vertical-align: top;
+  padding: 0;
+}
+
+.page {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.red { color: #d0021b; }
+.grey { color: #666666; }
+.small { font-size: 12px; }
+.tiny { font-size: 10px; margin-top: 6px; }
+.bold { font-weight: bold; }
+
+.topbar { height: 50px; }
+.tb-left { width: 300px; padding-top: 14px; font-size: 18px; }
+.menu-icon { margin-right: 25px; }
+.tb-right { width: 300px; text-align: right; padding-top: 7px; }
+.btn {
+  background: #5b84a8;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 10px 14px;
+  margin-left: 12px;
+  border-radius: 3px;
+}
+.editions {
+  text-align: center;
+  padding-top: 16px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.editions a { margin: 0 8px; }
+
+.masthead {
+  height: 90px;
+  border-bottom: 1px solid #dddddd;
+}
+.date-box { width: 300px; font-size: 11px; padding-top: 22px; }
+.stock-box { width: 300px; text-align: right; font-size: 12px; padding-top: 32px; }
+.logo-cell { text-align: center; }
+.logo {
+  font-family: "Old English Text MT", "Times New Roman", serif;
+  font-size: 52px;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+.nav {
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: 3px double #333333;
+  font-size: 12px;
+}
+.nav a { margin: 0 10px; }
+.nav .gap { margin: 0 14px; border-left: 1px solid #cccccc; }
+
+.main { margin-top: 20px; }
+.left-area { width: 835px; }
+.right-area {
+  width: 333px;
+  border-left: 1px solid #dddddd;
+  padding-left: 15px;
+}
+
+.story-text { width: 290px; padding-right: 15px; }
+.story-image { width: 530px; }
+
+.live { color: #d0021b; font-weight: bold; font-size: 11px; }
+.story-text h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 22px;
+  line-height: 25px;
+  margin: 10px 0;
+}
+.story-text p { margin-bottom: 8px; line-height: 20px; }
+.badge {
+  background: #121212;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+}
+
+.aq { border-top: 1px solid #dddddd; margin-top: 15px; padding-top: 12px; }
+.aq-table { margin-top: 8px; border-collapse: separate; border-spacing: 4px; }
+.aq-box {
+  width: 50%;
+  height: 45px;
+  text-align: center;
+  font-size: 11px;
+  padding-top: 8px;
+}
+.aq-box b { font-size: 13px; }
+.pink { background: #f3e6ee; border-top: 2px solid #b0307e; }
+.purple { background: #f1e6f1; border-top: 2px solid #b0307e; }
+.yellow { background: #fdfbe0; border-top: 2px solid #f0e030; }
+.aq p { padding-top: 10px; }
+
+.big-photo { width: 530px; height: 343px; }
+.credit { font-size: 9px; color: #666666; text-align: right; margin-top: 6px; }
+
+.second-row {
+  border-top: 1px solid #dddddd;
+  margin-top: 25px;
+}
+.item-a { width: 290px; padding: 15px 25px 0 0; }
+.item-a h3 { font-family: Georgia, serif; font-size: 17px; margin-bottom: 8px; }
+.item-a p { line-height: 20px; }
+.item-b { width: 272px; padding: 15px 15px 0 0; }
+.map-photo { width: 272px; height: 182px; }
+.item-c {
+  width: 200px;
+  padding: 15px 0 0 15px;
+  border-left: 1px solid #dddddd;
+}
+.item-c h4 { font-family: Georgia, serif; font-size: 15px; line-height: 20px; }
+
+.third-row {
+  border-top: 1px solid #dddddd;
+  margin-top: 20px;
+}
+.half { width: 50%; padding-top: 15px; }
+.half-border { padding-left: 15px; border-left: 1px solid #dddddd; }
+.half h4 { font-family: Georgia, serif; font-size: 15px; line-height: 20px; }
+
+.travel-photo { width: 333px; height: 222px; }
+.right-area h2.light {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 15px 0 8px 0;
+}
+.right-area p { line-height: 20px; }
+
+.mini-row {
+  border-top: 1px solid #dddddd;
+  margin-top: 20px;
+}
+.mini { width: 50%; padding-top: 15px; }
+.mini-border { padding-left: 15px; border-left: 1px solid #dddddd; }
+.mini-photo { width: 150px; height: 100px; margin-bottom: 8px; }
+.mini h5 { font-family: Georgia, serif; font-size: 14px; line-height: 19px; }
+
+.opinion {
+  border-top: 2px solid #121212;
+  margin-top: 20px;
+  padding-top: 12px;
+}
+.opinion h4 { font-family: Georgia, serif; font-size: 18px; margin-top: 6px; }

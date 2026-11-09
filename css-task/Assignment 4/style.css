@@ -1,0 +1,66 @@
+h1{
+    color: aliceblue; /* named color */
+    color: #789065; /* hex color */
+    color: rgb(82,82,200); /* rgb color */
+    color: rgba(99,165,255,0.5); /* rgba color */
+    color: hsl(240,80%,50%); /* hue satueration lightness(hsl) color */
+    color: hsl(0, 0%, 0%); /* huw saturation lightness alpha(hsla) color */
+
+    /* text styling */
+
+    font-size: 80px;
+    font-weight: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 5px 15px 6px rgb(228, 191, 228);
+    text-decoration: overline;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+    line-height: 100px;
+    width: 50%;
+}
+div{
+    height: 300px;
+    width: 400px;
+    border: 15px dotted red;
+    border-radius: 10px;
+    padding: 50px;
+
+    /* background styling */
+    /* 1 property of background */
+    background-color: bisque;
+    background-color: #877379;
+    background-color: rgb(35,93,255);
+    background-color: rgba(160,154,148,0.3);
+    background-color: hsl(199,70%,50%);
+    background-color: hsl(200, 57%, 47%);
+
+    /* 2 property of background */
+    /* background: url(https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    
+    /* 3 property of background */
+    /* background: linear-gradient(to bottom, rgb(180, 180, 255),rgb(49, 49, 196)); */
+
+    /* 4 property of background */
+    /* background: radial-gradient(yellow,purple,blue,red); */
+
+    /* 5 property of background */
+    /* background-origin: border-box; */
+    /* background-origin: padding-box;
+    background-origin: content-box; */
+
+    /* 6 property of background */
+   background-clip: content-box;
+   background-clip: padding-box;
+   background-clip: border-box;
+
+
+    /* 7 property of background*/
+    /* background-attachment: fixed; */
+
+}

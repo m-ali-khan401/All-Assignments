@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign Up</title>
+</head>
+<body style="background-color:#1f1f1f; color:white; text-align:center;">
+
+    <main>
+
+        <section class="form-container">
+
+            <form action="signup4.html" method="post">
+
+                <fieldset style="border:1px solid white; text-align:center;">
+
+                <legend>Sign Up - Work Experience</legend>
+
+                <input type="text" name="job" placeholder="Job title" required>
+                <br><br>
+
+                <input type="number" name="years" min="0" placeholder="Years of experience" required>
+                <br><br>
+
+                <label for="start">Employment Start Date:</label>
+                <br>
+                <input type="date" name="start" required>
+                <br><br>
+
+                <label for="resume">Upload Resume:</label>
+                <br>
+                <input type="file" name="resume" accept=".pdf,.doc,.docx">
+                <br><br>
+
+                <select name="skills" required>
+                    <option value="">Skills</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>JS</option>
+                    <option>JAVA</option>
+                    <option>Other</option>
+                </select>
+                <br><br>
+
+                <button type="submit">Next</button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
