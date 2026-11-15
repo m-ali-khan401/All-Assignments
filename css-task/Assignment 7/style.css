@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 120px;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 25px;
+}
+
+main {
+    width: 1500px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 120px;
+    left: 0;
+    width: 300px;
+    height: 620px;
+    background-color: #efeded;
+    border: 5px solid #dedede;
+    border-radius: 10px;
+    z-index: 50;
+}
+
+aside {
+    height: 500px;
+    width: 260px;
+    background-color: #666666;
+    margin: 10px 20px 0px 15px;
+    padding: 20px 0px 0px 20px;
+    border-radius: 13px;
+}
+
+aside h2 {
+    color: aliceblue;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.content {
+    margin-left: 300px;
+    width: 1200px;
+    min-height: 600px;
+    padding: 20px;
+    position: relative;
+}
+
+.sticky-box {
+    position: relative;
+    top: 0px;
+    z-index: 10;
+    width: 1160px;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.box-1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    z-index: 2;
+}
+
+.box-2 {
+    width: 280px;
+    height: 155px;
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 8px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    z-index: 1;
+}
+
+.gallery {
+    margin-top: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 370px;
+    height: 200px;
+    background-color: #d8d6d8;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 200px;
+    color: #aaaaaa;
+    font-size: 22px;
+}
+
+footer {
+    position: relative;
+    z-index: 60;
+    background-color: gray;
+    color: #eee;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
