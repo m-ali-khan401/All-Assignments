@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
 .header {
     height: 120px;
-    background-color: #666666;
-    color: white;
+    width: 1300px;
+    background-color: #1e293b;
+    color: #ffffff;
     text-align: center;
     padding: 15px;
     position: sticky;
@@ -16,123 +23,169 @@
 }
 
 .header h1 {
-    font-size: 38px;
-    margin-bottom: 10px;
+    font-size: 34px;
+    margin-bottom: 12px;
 }
 
 .nav a {
-    color: white;
+    color: #cbd5e1;
     text-decoration: none;
-    margin: 0px 15px;
-    font-size: 25px;
+    margin: 0 15px;
+    font-size: 20px;
 }
 
-main {
-    width: 1500px;
-}
+
 
 .sidebar {
     position: fixed;
     top: 120px;
     left: 0;
+    bottom: 0;
     width: 300px;
-    height: 620px;
-    background-color: #efeded;
-    border: 5px solid #dedede;
-    border-radius: 10px;
+    background-color: #e2e8f0;
+    border-right: 4px solid #cbd5e1;
     z-index: 50;
 }
 
 aside {
     height: 500px;
-    width: 260px;
-    background-color: #666666;
-    margin: 10px 20px 0px 15px;
-    padding: 20px 0px 0px 20px;
-    border-radius: 13px;
+    margin: 15px;
+    padding: 25px 20px;
+    background-color: #334155;
+    border-radius: 12px;
 }
 
 aside h2 {
-    color: aliceblue;
+    color: #f1f5f9;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #38bdf8;
 }
 
 .sidebar a {
     display: block;
-    color: white;
+    color: #e2e8f0;
     text-decoration: none;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
+
+
 .content {
     margin-left: 300px;
-    width: 1200px;
-    min-height: 600px;
+    width: 1000px;
+    min-height: 800px;
     padding: 20px;
     position: relative;
 }
 
 .sticky-box {
-    position: relative;
-    top: 0px;
+    position: sticky;
+    top: 120px;
     z-index: 10;
-    width: 1160px;
-    background-color: lightgray;
+    width: 920px;
+    background-color: #fde68a;
+    color: #78350f;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
 }
 
 .box-1 {
     width: 150px;
     height: 150px;
-    border-radius: 200px;
-    background-color: coral;
-    color: white;
+    border-radius: 75px;
+    background-color: #f97316;
+    color: #ffffff;
     text-align: center;
     line-height: 150px;
     position: absolute;
-    top: 40px;
-    right: 45px;
-    z-index: 2;
+    top: 70px;
+    right: 100px;
+    
 }
 
 .box-2 {
     width: 280px;
     height: 155px;
-    background-color: lightblue;
+    background-color: #7dd3fc;
+    color: #0c4a6e;
     padding: 15px;
     border-radius: 8px;
     position: absolute;
-    top: 200px;
+    top: 150px;
     left: 40px;
     z-index: 1;
 }
 
 .gallery {
-    margin-top: 320px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    position: relative;
+    width: 960px;
+    height: 420px;
+    margin-top: 300px;
 }
 
 .card {
-    width: 370px;
+    position: absolute;
+    width: 250px;
     height: 200px;
-    background-color: #d8d6d8;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     line-height: 200px;
-    color: #aaaaaa;
     font-size: 22px;
 }
 
+.card-1 {
+    top: 0;
+    left: 0;
+    background-color: #c7d2fe;
+    color: #3730a3;
+}
+
+.card-2 {
+    top: 0;
+    left: 330px;
+    background-color: #a5f3fc;
+    color: #155e75;
+}
+
+.card-3 {
+    top: 0;
+    left: 660px;
+    background-color: #bbf7d0;
+    color: #166534;
+}
+
+.card-4 {
+    top: 220px;
+    left: 0;
+    background-color: #fbcfe8;
+    color: #9d174d;
+}
+
+.card-5 {
+    top: 220px;
+    left: 330px;
+    background-color: #fed7aa;
+    color: #9a3412;
+}
+
+.card-6 {
+    top: 220px;
+    left: 660px;
+    background-color: #ddd6fe;
+    color: #5b21b6;
+}
+
 footer {
+    height: 100px;
+    width: 1000px;
     position: relative;
     z-index: 60;
-    background-color: gray;
-    color: #eee;
-    font-weight: 400;
+    margin-left: 300px;
+    background-color: #1e293b;
+    color: #cbd5e1;
     text-align: center;
     padding: 20px;
 }

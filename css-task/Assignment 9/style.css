@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(210, 7, 241);
+    padding:20px;
+}
+.logo{
+    padding-left: 50px;
+    font-size: 40px;
+    font-weight:bolder;
+    color: white;
+}
+.navlinks
+{
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.main{
+    padding: 50px;
+    height: 1200px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(242, 154, 255);   
+}
+.card
+{
+    background-color: rgb(225, 160, 245);
+    width: 300px;
+    text-align: center;
+    height: 200px;
+    align-self:flex-end;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.footer{
+    background-color: rgb(210, 7, 241); 
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+}
+.quicklinks{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer > p {
+    color: white;
+}
